@@ -5,6 +5,14 @@ const next = require('next')
 const port = parseInt(process.env.PORT || '8080', 10)
 const hostname = '0.0.0.0'
 const dev = process.env.NODE_ENV !== 'production'
+
+console.log('[SERVER] Starting with:', {
+  port,
+  hostname,
+  nodeEnv: process.env.NODE_ENV,
+  portEnv: process.env.PORT,
+})
+
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
 
