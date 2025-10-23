@@ -8,9 +8,13 @@ import { Button } from '@/components/ui/button'
 import { Star, Heart } from 'lucide-react'
 import { AddToCartButton } from '@/components/products/add-to-cart-button'
 import type { Product, Category } from '@prisma/client'
+import type { Decimal } from '@prisma/client/runtime/library'
 
 interface ProductCardProps {
-  product: Product & {
+  product: Omit<Product, 'price' | 'compareAtPrice' | 'costPerItem'> & {
+    price: number | Decimal
+    compareAtPrice: number | Decimal | null
+    costPerItem: number | Decimal | null
     category: Category | null
   }
 }

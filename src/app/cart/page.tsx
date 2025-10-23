@@ -136,7 +136,7 @@ export default async function CartPage() {
                           ) : (
                             <GuestCartItemActions
                               productId={item.productId}
-                              variantId={item.variantId}
+                              variantId={item.variantId ?? undefined}
                               quantity={item.quantity}
                               maxQuantity={item.product.inventory}
                             />

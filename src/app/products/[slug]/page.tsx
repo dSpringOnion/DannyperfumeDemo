@@ -12,9 +12,10 @@ import { ChevronRight } from 'lucide-react'
 export default async function ProductDetailPage({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }) {
-  const product = await getProductBySlug(params.slug)
+  const { slug } = await params
+  const product = await getProductBySlug(slug)
 
   if (!product || !product.isActive) {
     notFound()
