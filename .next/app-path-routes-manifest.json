@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/auth/signin/page": "/auth/signin",
+  "/auth/signup/page": "/auth/signup",
+  "/cart/page": "/cart",
+  "/checkout/success/page": "/checkout/success",
+  "/checkout/page": "/checkout",
+  "/page": "/",
+  "/dashboard/page": "/dashboard",
+  "/products/[slug]/page": "/products/[slug]",
+  "/products/page": "/products"
+}
