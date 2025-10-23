@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Ecommerce" [ref=e6] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e7]:
+            - link "Products" [ref=e8] [cursor=pointer]:
+              - /url: /products
+            - link "Categories" [ref=e9] [cursor=pointer]:
+              - /url: /categories
+        - generic [ref=e10]:
+          - link "Cart" [ref=e11] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e12]
+            - text: Cart
+          - button "Toggle theme" [ref=e16]:
+            - img [ref=e17]
+            - img [ref=e23]
+            - text: Toggle theme
+          - generic [ref=e25]:
+            - link "Sign In" [ref=e26] [cursor=pointer]:
+              - /url: /auth/signin
+            - link "Sign Up" [ref=e27] [cursor=pointer]:
+              - /url: /auth/signup
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "Products" [level=1] [ref=e31]
+          - paragraph [ref=e32]: Browse our collection of products
+        - generic [ref=e33]:
+          - complementary [ref=e34]:
+            - generic [ref=e36]:
+              - heading "Categories" [level=2] [ref=e37]
+              - generic [ref=e38]:
+                - link "All Products" [ref=e39] [cursor=pointer]:
+                  - /url: /products
+                - link "Clothing" [ref=e40] [cursor=pointer]:
+                  - /url: /products?category=cmgx6zetv0001xcb2r14rziff
+                - link "Electronics" [ref=e41] [cursor=pointer]:
+                  - /url: /products?category=cmgx6zetf0000xcb2egeybk7c
+                - link "Home & Garden" [ref=e42] [cursor=pointer]:
+                  - /url: /products?category=cmgx6zety0002xcb2gq55fsby
+          - generic [ref=e43]:
+            - paragraph [ref=e45]: Showing 1-8 of 8 products
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - link "Scented Candle Set":
+                  - /url: /products/scented-candle-set
+                  - img "Scented Candle Set" [ref=e48] [cursor=pointer]
+                - link "Home & Garden Scented Candle Set $34.99" [ref=e50] [cursor=pointer]:
+                  - /url: /products/scented-candle-set
+                  - generic [ref=e51]:
+                    - paragraph [ref=e52]: Home & Garden
+                    - heading "Scented Candle Set" [level=3] [ref=e53]
+                    - paragraph [ref=e55]: $34.99
+                - link "View Details" [ref=e57] [cursor=pointer]:
+                  - /url: /products/scented-candle-set
+              - generic [ref=e58]:
+                - link "Ceramic Plant Pot":
+                  - /url: /products/ceramic-plant-pot
+                  - img "Ceramic Plant Pot" [ref=e59] [cursor=pointer]
+                - link "Home & Garden Ceramic Plant Pot $24.99" [ref=e61] [cursor=pointer]:
+                  - /url: /products/ceramic-plant-pot
+                  - generic [ref=e62]:
+                    - paragraph [ref=e63]: Home & Garden
+                    - heading "Ceramic Plant Pot" [level=3] [ref=e64]
+                    - paragraph [ref=e66]: $24.99
+                - link "View Details" [ref=e68] [cursor=pointer]:
+                  - /url: /products/ceramic-plant-pot
+              - generic [ref=e69]:
+                - link "Running Shoes":
+                  - /url: /products/running-shoes
+                  - img "Running Shoes" [ref=e70] [cursor=pointer]
+                - link "Clothing Running Shoes $79.99" [ref=e72] [cursor=pointer]:
+                  - /url: /products/running-shoes
+                  - generic [ref=e73]:
+                    - paragraph [ref=e74]: Clothing
+                    - heading "Running Shoes" [level=3] [ref=e75]
+                    - paragraph [ref=e77]: $79.99
+                - link "View Details" [ref=e79] [cursor=pointer]:
+                  - /url: /products/running-shoes
+              - generic [ref=e80]:
+                - link "Denim Jeans -33%" [ref=e81] [cursor=pointer]:
+                  - /url: /products/denim-jeans
+                  - generic [ref=e82]:
+                    - img "Denim Jeans" [ref=e83]
+                    - generic [ref=e84]: "-33%"
+                - link "Clothing Denim Jeans $59.99 $89.99" [ref=e86] [cursor=pointer]:
+                  - /url: /products/denim-jeans
+                  - generic [ref=e87]:
+                    - paragraph [ref=e88]: Clothing
+                    - heading "Denim Jeans" [level=3] [ref=e89]
+                    - generic [ref=e90]:
+                      - paragraph [ref=e91]: $59.99
+                      - paragraph [ref=e92]: $89.99
+                - link "View Details" [ref=e94] [cursor=pointer]:
+                  - /url: /products/denim-jeans
+              - generic [ref=e95]:
+                - link "Classic Cotton T-Shirt":
+                  - /url: /products/classic-cotton-tshirt
+                  - img "Classic Cotton T-Shirt" [ref=e96] [cursor=pointer]
+                - link "Clothing Classic Cotton T-Shirt $19.99" [ref=e98] [cursor=pointer]:
+                  - /url: /products/classic-cotton-tshirt
+                  - generic [ref=e99]:
+                    - paragraph [ref=e100]: Clothing
+                    - heading "Classic Cotton T-Shirt" [level=3] [ref=e101]
+                    - paragraph [ref=e103]: $19.99
+                - link "View Details" [ref=e105] [cursor=pointer]:
+                  - /url: /products/classic-cotton-tshirt
+              - generic [ref=e106]:
+                - link "Laptop Backpack -38%" [ref=e107] [cursor=pointer]:
+                  - /url: /products/laptop-backpack
+                  - generic [ref=e108]:
+                    - img "Laptop Backpack" [ref=e109]
+                    - generic [ref=e110]: "-38%"
+                - link "Electronics Laptop Backpack $49.99 $79.99" [ref=e112] [cursor=pointer]:
+                  - /url: /products/laptop-backpack
+                  - generic [ref=e113]:
+                    - paragraph [ref=e114]: Electronics
+                    - heading "Laptop Backpack" [level=3] [ref=e115]
+                    - generic [ref=e116]:
+                      - paragraph [ref=e117]: $49.99
+                      - paragraph [ref=e118]: $79.99
+                - link "View Details" [ref=e120] [cursor=pointer]:
+                  - /url: /products/laptop-backpack
+              - generic [ref=e121]:
+                - link "Smart Watch":
+                  - /url: /products/smart-watch
+                  - img "Smart Watch" [ref=e122] [cursor=pointer]
+                - link "Electronics Smart Watch $199.99" [ref=e124] [cursor=pointer]:
+                  - /url: /products/smart-watch
+                  - generic [ref=e125]:
+                    - paragraph [ref=e126]: Electronics
+                    - heading "Smart Watch" [level=3] [ref=e127]
+                    - paragraph [ref=e129]: $199.99
+                - link "View Details" [ref=e131] [cursor=pointer]:
+                  - /url: /products/smart-watch
+              - generic [ref=e132]:
+                - link "Wireless Headphones -33%" [ref=e133] [cursor=pointer]:
+                  - /url: /products/wireless-headphones
+                  - generic [ref=e134]:
+                    - img "Wireless Headphones" [ref=e135]
+                    - generic [ref=e136]: "-33%"
+                - link "Electronics Wireless Headphones $99.99 $149.99" [ref=e138] [cursor=pointer]:
+                  - /url: /products/wireless-headphones
+                  - generic [ref=e139]:
+                    - paragraph [ref=e140]: Electronics
+                    - heading "Wireless Headphones" [level=3] [ref=e141]
+                    - generic [ref=e142]:
+                      - paragraph [ref=e143]: $99.99
+                      - paragraph [ref=e144]: $149.99
+                - link "View Details" [ref=e146] [cursor=pointer]:
+                  - /url: /products/wireless-headphones
+    - contentinfo [ref=e147]:
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Shop" [level=3] [ref=e151]
+            - list [ref=e152]:
+              - listitem [ref=e153]:
+                - link "All Products" [ref=e154] [cursor=pointer]:
+                  - /url: /products
+              - listitem [ref=e155]:
+                - link "Categories" [ref=e156] [cursor=pointer]:
+                  - /url: /categories
+              - listitem [ref=e157]:
+                - link "Shopping Cart" [ref=e158] [cursor=pointer]:
+                  - /url: /cart
+          - generic [ref=e159]:
+            - heading "Account" [level=3] [ref=e160]
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link "Dashboard" [ref=e163] [cursor=pointer]:
+                  - /url: /dashboard
+              - listitem [ref=e164]:
+                - link "Orders" [ref=e165] [cursor=pointer]:
+                  - /url: /orders
+              - listitem [ref=e166]:
+                - link "Settings" [ref=e167] [cursor=pointer]:
+                  - /url: /settings
+          - generic [ref=e168]:
+            - heading "Company" [level=3] [ref=e169]
+            - list [ref=e170]:
+              - listitem [ref=e171]:
+                - link "About" [ref=e172] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e173]:
+                - link "Contact" [ref=e174] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e175]:
+                - link "Blog" [ref=e176] [cursor=pointer]:
+                  - /url: /blog
+          - generic [ref=e177]:
+            - heading "Legal" [level=3] [ref=e178]
+            - list [ref=e179]:
+              - listitem [ref=e180]:
+                - link "Privacy Policy" [ref=e181] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=e182]:
+                - link "Terms of Service" [ref=e183] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e184]:
+                - link "Returns" [ref=e185] [cursor=pointer]:
+                  - /url: /returns
+        - generic [ref=e186]:
+          - paragraph [ref=e187]: © 2025 Ecommerce Boilerplate. All rights reserved.
+          - paragraph [ref=e188]: Built with ❤️ using Next.js, Prisma, and Auth.js
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e194] [cursor=pointer]:
+    - img [ref=e195]
+  - alert [ref=e198]
+```

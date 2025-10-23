@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "2"
+          - generic [ref=e15]: "3"
+        - generic [ref=e16]:
+          - text: Issue
+          - generic [ref=e17]: s
+      - button "Collapse issues badge" [ref=e18]:
+        - img [ref=e19]
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Welcome Back" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Sign in to your account to continue
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Sign In
+        - generic [ref=e29]: Enter your credentials to access your account
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - text: Email
+          - textbox "Email" [ref=e33]:
+            - /placeholder: you@example.com
+        - generic [ref=e34]:
+          - text: Password
+          - textbox "Password" [ref=e35]:
+            - /placeholder: ••••••••
+        - button "Sign In" [ref=e36]
+        - generic [ref=e38]: Or continue with
+        - generic [ref=e39]:
+          - button "Google" [ref=e41]:
+            - img [ref=e42]
+            - text: Google
+          - button "GitHub" [ref=e48]:
+            - img [ref=e49]
+            - text: GitHub
+    - generic [ref=e51]:
+      - text: Don't have an account?
+      - link "Sign up" [ref=e52] [cursor=pointer]:
+        - /url: /auth/signup
+  - region "Notifications alt+T"
+  - alert [ref=e53]
+```

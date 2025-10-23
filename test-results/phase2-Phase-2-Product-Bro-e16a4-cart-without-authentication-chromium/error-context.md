@@ -1,0 +1,121 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Ecommerce" [ref=e6] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e7]:
+            - link "Products" [ref=e8] [cursor=pointer]:
+              - /url: /products
+            - link "Categories" [ref=e9] [cursor=pointer]:
+              - /url: /categories
+        - generic [ref=e10]:
+          - link "Cart" [ref=e11] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e12]
+            - text: Cart
+          - button "Toggle theme" [ref=e16]:
+            - img [ref=e17]
+            - img [ref=e23]
+            - text: Toggle theme
+          - generic [ref=e25]:
+            - link "Sign In" [ref=e26] [cursor=pointer]:
+              - /url: /auth/signin
+            - link "Sign Up" [ref=e27] [cursor=pointer]:
+              - /url: /auth/signup
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e30]:
+          - link "Products" [ref=e31] [cursor=pointer]:
+            - /url: /products
+          - img [ref=e32]
+          - link "Electronics" [ref=e34] [cursor=pointer]:
+            - /url: /products?category=cmgx6zetf0000xcb2egeybk7c
+          - img [ref=e35]
+          - text: Wireless Headphones
+        - generic [ref=e37]:
+          - generic [ref=e39]:
+            - img "Wireless Headphones" [ref=e40]
+            - generic [ref=e41]: "-33%"
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - heading "Wireless Headphones" [level=1] [ref=e44]
+              - paragraph [ref=e45]: Electronics
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: $99.99
+              - paragraph [ref=e48]: $149.99
+            - generic [ref=e50]: In Stock
+            - generic [ref=e51]:
+              - heading "Description" [level=2] [ref=e52]
+              - paragraph [ref=e53]: Premium wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers and commuters.
+            - button "Add to Cart" [ref=e54]:
+              - img [ref=e55]
+              - text: Add to Cart
+            - generic [ref=e59]:
+              - heading "Product Details" [level=3] [ref=e60]
+              - generic [ref=e62]:
+                - text: "Available:"
+                - generic [ref=e63]: 50 units
+    - contentinfo [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - heading "Shop" [level=3] [ref=e68]
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - link "All Products" [ref=e71] [cursor=pointer]:
+                  - /url: /products
+              - listitem [ref=e72]:
+                - link "Categories" [ref=e73] [cursor=pointer]:
+                  - /url: /categories
+              - listitem [ref=e74]:
+                - link "Shopping Cart" [ref=e75] [cursor=pointer]:
+                  - /url: /cart
+          - generic [ref=e76]:
+            - heading "Account" [level=3] [ref=e77]
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "Dashboard" [ref=e80] [cursor=pointer]:
+                  - /url: /dashboard
+              - listitem [ref=e81]:
+                - link "Orders" [ref=e82] [cursor=pointer]:
+                  - /url: /orders
+              - listitem [ref=e83]:
+                - link "Settings" [ref=e84] [cursor=pointer]:
+                  - /url: /settings
+          - generic [ref=e85]:
+            - heading "Company" [level=3] [ref=e86]
+            - list [ref=e87]:
+              - listitem [ref=e88]:
+                - link "About" [ref=e89] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e90]:
+                - link "Contact" [ref=e91] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e92]:
+                - link "Blog" [ref=e93] [cursor=pointer]:
+                  - /url: /blog
+          - generic [ref=e94]:
+            - heading "Legal" [level=3] [ref=e95]
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - link "Privacy Policy" [ref=e98] [cursor=pointer]:
+                  - /url: /privacy
+              - listitem [ref=e99]:
+                - link "Terms of Service" [ref=e100] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=e101]:
+                - link "Returns" [ref=e102] [cursor=pointer]:
+                  - /url: /returns
+        - generic [ref=e103]:
+          - paragraph [ref=e104]: © 2025 Ecommerce Boilerplate. All rights reserved.
+          - paragraph [ref=e105]: Built with ❤️ using Next.js, Prisma, and Auth.js
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e111] [cursor=pointer]:
+    - img [ref=e112]
+  - alert [ref=e115]
+```
